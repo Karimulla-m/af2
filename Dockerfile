@@ -2,7 +2,7 @@
 FROM apache/airflow:2.6.0
 
 # Set your maintainer label
-LABEL maintainer="Your Name <your.email@example.com>"
+#LABEL maintainer="Your Name <your.email@example.com>"
 
 # Copy your requirements.txt file into the image
 COPY requirements.txt /requirements.txt

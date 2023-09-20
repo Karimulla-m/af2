@@ -21,7 +21,7 @@ apache-airflow-providers-snowflake==3.3.0
 snowflake-connector-python==2.7.9
 neo4j==4.4.5
 redshift-connector==2.0.908
-scikit-learn==1.2.2
+scikit-learn==1.0.2
 scipy==1.10.1
 plotly==5.16.1
 pycaret==3.0.4

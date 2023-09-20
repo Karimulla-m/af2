@@ -27,7 +27,7 @@ plotly==5.16.1
 pycaret==3.0.4
 xgboost==1.6.2
 statsmodels==0.13.5
-torch==2.0.1
+torch==1.12.1
 explainerdashboard==0.4.3
 ydata-profiling==4.5.1
 bs4==0.0.1

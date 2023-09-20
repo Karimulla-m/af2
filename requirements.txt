@@ -28,7 +28,7 @@ pycaret==3.0.4
 xgboost==1.6.2
 statsmodels==0.13.5
 torch==1.12.1
-explainerdashboard==0.4.3
+explainerdashboard==0.3.8
 ydata-profiling==4.5.1
 bs4==0.0.1
 waitress==2.1.2

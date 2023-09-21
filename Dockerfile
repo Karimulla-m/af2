@@ -1,5 +1,5 @@
 # Use an official Airflow image as the base image
-FROM apache/airflow:2.6.0
+FROM apache/airflow:2.6.5
 
 # Set your maintainer label
 #LABEL maintainer="Your Name <your.email@example.com>"

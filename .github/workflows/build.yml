@@ -25,3 +25,14 @@ jobs:
 
       - name: List Docker images
         run: docker images
+        
+      - name: Install Trivy
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget
+          wget https://github.com/aquasecurity/trivy/releases/latest/download/trivy_0.36.0_Linux-64bit.deb
+          sudo dpkg -i trivy_0.36.0_Linux-64bit.deb
+
+      - name: Run Trivy scan
+        run: |
+          trivy image --exit-code 1 --severity HIGH,CRITICAL your-image-name:latest  # Change as needed
